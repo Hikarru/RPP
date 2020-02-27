@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".MainActivity">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/tab_strip"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:focusableInTouchMode="false"
+            android:textColor="#000"
+            android:textSize="20sp">
+
+
+        </android.support.v4.view.PagerTabStrip>
+
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/graphic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:contentDescription="@+id/RelativeLayout1" />
+
+    <TextView
+        android:id="@+id/tvPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/graphic"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+</RelativeLayout>
