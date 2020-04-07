@@ -1,0 +1,8 @@
+<resources>
+    <string name="widget_name">Calendar</string>
+    <string name="date">Date</string>
+    <string name="config">Config</string>
+    <string name="count">Count</string>
+    <string name="update">Update</string>
+    <string name="ok">OK</string>
+</resources>
